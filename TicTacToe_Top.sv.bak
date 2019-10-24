@@ -1,0 +1,27 @@
+module TicTacToe_Top (input logic clk, rst,
+							 input logic [2:0] inputs,
+							 output logic [17:0] matrix);
+	
+	logic [1:0] quadrant_player;
+	logic [3:0] quadrant_position;
+	
+		FSM_Position moves_FSM(
+		.clk(clock_in),
+		.rst(rst),
+		.direccion(~direction),
+		.quadrant(move));
+	
+	
+
+	module FSM_player (input logic clk, rst, 
+							input logic [2:0] inputs, 
+							output logic [1:0] quadrant);
+							
+	module matrix_memory(input [3:0] m_cell, 
+							input [1:0] player, 
+							input clk, 
+							input aceptar, 
+							input rst, 
+							output logic [17:0] matrix);
+
+endmodule

@@ -1,0 +1,19 @@
+module FSM_Position_TB;
+
+	logic clock_in, rst;
+	logic [3:0] direction, move;
+
+	FSM_Position moves_FSM(
+		.clk(clock_in),
+		.rst(rst),
+		.direccion(direction),
+		.quadrant(move));
+		
+	initial begin
+		rst = 0, clock_in = 0; direction = 4'd0001;
+		#10 clock_in = ~clock_in;
+		#10 clock_in = ~clock_in;
+		#10 clock_in = ~clock_in;
+		end
+
+endmodule

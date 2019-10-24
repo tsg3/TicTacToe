@@ -1,0 +1,13 @@
+module horizontal_counter(input clk, output count, [] new_line);
+
+	always @(posedge clk) begin
+	
+		counter <= counter + 28'd1;
+		
+		if(counter >= (ratio - 1))
+			counter <= 28'd0;
+			
+		end
+	assign clock_out = (counter < ratio / 2) ? 1'b0 : 1'b1;
+
+endmodule

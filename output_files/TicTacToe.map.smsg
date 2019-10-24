@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at vertical_counter.sv(13): always construct contains both blocking and non-blocking assignments File: C:/Users/este0/Desktop/Esteban/TEC/2019 - II Semestre/Taller de Diseno Digital/TicTacToe/vertical_counter.sv Line: 13
+Warning (10268): Verilog HDL information at display_syncronization.sv(13): always construct contains both blocking and non-blocking assignments File: C:/Users/este0/Desktop/Esteban/TEC/2019 - II Semestre/Taller de Diseno Digital/TicTacToe/display_syncronization.sv Line: 13

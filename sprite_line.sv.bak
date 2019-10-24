@@ -1,0 +1,10 @@
+module sprite_line(input clk, input[9:0] posx, posy, 
+						output visible);
+						
+if(10'd214 <= posx < 10'd219 | 10'd424 <= posx < 10'd429 |
+	10'd155 <= posy < 10'd160 | 10'd316 <= posy < 10'd321)
+	assign visible = 1'b1;
+else
+	assign visible = 1'b0;
+		
+endmodule

@@ -1,0 +1,3 @@
+module FSM_player (input logic clock, rst, 
+							input logic [1:0] direccion, 
+							output logic []quadrant);

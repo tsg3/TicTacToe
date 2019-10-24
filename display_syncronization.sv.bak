@@ -1,0 +1,4 @@
+module display_syncronization(input logic [9:0] hcount,
+										input logic [9:0] vcount,
+										output logic [9:0] posx,
+										output logic [9:0] posy)

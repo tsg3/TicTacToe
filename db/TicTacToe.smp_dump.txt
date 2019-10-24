@@ -1,0 +1,11 @@
+
+State Machine - |TicTacToe_Top|matrix_memory:matrix_module|player
+Name player.10 
+player.01 0 
+player.10 1 
+
+State Machine - |TicTacToe_Top|FSM_player:player_FSM|state
+Name state.00 state.10 state.01 
+state.00 0 0 0 
+state.01 1 0 1 
+state.10 1 1 0 

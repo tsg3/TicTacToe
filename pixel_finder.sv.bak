@@ -1,0 +1,6 @@
+module pixel_finder(input [9:0] posx, posy,
+						  output [9:0] pixelx, pixely);
+
+
+
+endmodule
